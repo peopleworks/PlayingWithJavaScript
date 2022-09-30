@@ -1,0 +1,1084 @@
+30.09.22 12:15:10.240	================================================================================
+30.09.22 12:15:10.246	Trace Log for PlayingWithJavaScript.Blazor.Server is started
+30.09.22 12:15:10.248	================================================================================
+30.09.22 12:15:10.252	System Environment
+	OS Version: Microsoft Windows NT 10.0.22622.0
+	CLR Version: 6.0.9
+	eXpressApp Version: 22.1.4.0
+	eXpressApp File Version: 22.1.4.0
+
+Application config
+
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server
+30.09.22 12:15:13.360	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+30.09.22 12:15:13.366	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							
+
+30.09.22 12:15:13.377	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Blazor.v22.1.dll
+	DevExpress.Data.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Data.v22.1.dll
+	DevExpress.ExpressApp.AspNetCore.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.AspNetCore.v22.1.dll
+	DevExpress.ExpressApp.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Blazor.v22.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll
+	DevExpress.ExpressApp.FileAttachment.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.FileAttachment.Blazor.v22.1.dll
+	DevExpress.ExpressApp.Objects.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Objects.v22.1.dll
+	DevExpress.ExpressApp.Security.AspNetCore.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.AspNetCore.v22.1.dll
+	DevExpress.ExpressApp.Security.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.v22.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.Xpo.v22.1.dll
+	DevExpress.ExpressApp.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.v22.1.dll
+	DevExpress.ExpressApp.Validation.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Validation.Blazor.v22.1.dll
+	DevExpress.ExpressApp.Validation.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Validation.v22.1.dll
+	DevExpress.ExpressApp.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Xpo.v22.1.dll
+	DevExpress.Persistent.Base.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Persistent.Base.v22.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Persistent.BaseImpl.Xpo.v22.1.dll
+	DevExpress.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Xpo.v22.1.dll
+	Microsoft.AspNetCore, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.dll
+	Microsoft.AspNetCore.Antiforgery, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Antiforgery.dll
+	Microsoft.AspNetCore.Authentication, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.dll
+	Microsoft.AspNetCore.Authentication.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Abstractions.dll
+	Microsoft.AspNetCore.Authentication.Cookies, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Cookies.dll
+	Microsoft.AspNetCore.Authentication.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Core.dll
+	Microsoft.AspNetCore.Authorization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authorization.dll
+	Microsoft.AspNetCore.Authorization.Policy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authorization.Policy.dll
+	Microsoft.AspNetCore.Components, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.dll
+	Microsoft.AspNetCore.Components.Authorization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Authorization.dll
+	Microsoft.AspNetCore.Components.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Forms.dll
+	Microsoft.AspNetCore.Components.Server, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Server.dll
+	Microsoft.AspNetCore.Components.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Web.dll
+	Microsoft.AspNetCore.Connections.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Connections.Abstractions.dll
+	Microsoft.AspNetCore.Cryptography.Internal, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Cryptography.Internal.dll
+	Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.dll
+	Microsoft.AspNetCore.DataProtection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+	Microsoft.AspNetCore.DataProtection.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.Extensions.dll
+	Microsoft.AspNetCore.Diagnostics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Diagnostics.dll
+	Microsoft.AspNetCore.Diagnostics.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+	Microsoft.AspNetCore.HostFiltering, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HostFiltering.dll
+	Microsoft.AspNetCore.Hosting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.dll
+	Microsoft.AspNetCore.Hosting.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.Abstractions.dll
+	Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+	Microsoft.AspNetCore.Html.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Html.Abstractions.dll
+	Microsoft.AspNetCore.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.dll
+	Microsoft.AspNetCore.Http.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Abstractions.dll
+	Microsoft.AspNetCore.Http.Connections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Connections.dll
+	Microsoft.AspNetCore.Http.Connections.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Connections.Common.dll
+	Microsoft.AspNetCore.Http.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Extensions.dll
+	Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Features.dll
+	Microsoft.AspNetCore.HttpOverrides, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HttpOverrides.dll
+	Microsoft.AspNetCore.HttpsPolicy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HttpsPolicy.dll
+	Microsoft.AspNetCore.Localization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Localization.dll
+	Microsoft.AspNetCore.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Metadata.dll
+	Microsoft.AspNetCore.Mvc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.dll
+	Microsoft.AspNetCore.Mvc.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Abstractions.dll
+	Microsoft.AspNetCore.Mvc.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Core.dll
+	Microsoft.AspNetCore.Mvc.DataAnnotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+	Microsoft.AspNetCore.Mvc.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Razor.dll
+	Microsoft.AspNetCore.Mvc.RazorPages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.RazorPages.dll
+	Microsoft.AspNetCore.Mvc.TagHelpers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+	Microsoft.AspNetCore.Mvc.ViewFeatures, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+	Microsoft.AspNetCore.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Razor.dll
+	Microsoft.AspNetCore.Razor.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Razor.Runtime.dll
+	Microsoft.AspNetCore.Routing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Routing.dll
+	Microsoft.AspNetCore.Routing.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Routing.Abstractions.dll
+	Microsoft.AspNetCore.Server.IIS, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.IIS.dll
+	Microsoft.AspNetCore.Server.IISIntegration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.IISIntegration.dll
+	Microsoft.AspNetCore.Server.Kestrel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.dll
+	Microsoft.AspNetCore.Server.Kestrel.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+	Microsoft.AspNetCore.Server.Kestrel.Transport.Quic, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+	Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+	Microsoft.AspNetCore.SignalR, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.dll
+	Microsoft.AspNetCore.SignalR.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Common.dll
+	Microsoft.AspNetCore.SignalR.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Core.dll
+	Microsoft.AspNetCore.SignalR.Protocols.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+	Microsoft.AspNetCore.StaticFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.StaticFiles.dll
+	Microsoft.AspNetCore.Watch.BrowserRefresh, Version=6.0.401.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\SDK\6.0.401\DotnetTools\dotnet-watch\6.0.401-servicing.22421.5\tools\net6.0\any\middleware\Microsoft.AspNetCore.Watch.BrowserRefresh.dll
+	Microsoft.AspNetCore.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.WebSockets.dll
+	Microsoft.AspNetCore.WebUtilities, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.WebUtilities.dll
+	Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Caching.Abstractions.dll
+	Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Caching.Memory.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.Configuration.Binder, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Binder.dll
+	Microsoft.Extensions.Configuration.EnvironmentVariables, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+	Microsoft.Extensions.Configuration.FileExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.FileExtensions.dll
+	Microsoft.Extensions.Configuration.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Json.dll
+	Microsoft.Extensions.Configuration.UserSecrets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.UserSecrets.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=c:\program files\microsoft visual studio\2022\enterprise\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Features.dll
+	Microsoft.Extensions.FileProviders.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Abstractions.dll
+	Microsoft.Extensions.FileProviders.Composite, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Composite.dll
+	Microsoft.Extensions.FileProviders.Embedded, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Embedded.dll
+	Microsoft.Extensions.FileProviders.Physical, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Physical.dll
+	Microsoft.Extensions.FileSystemGlobbing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileSystemGlobbing.dll
+	Microsoft.Extensions.Hosting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Hosting.dll
+	Microsoft.Extensions.Hosting.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Hosting.Abstractions.dll
+	Microsoft.Extensions.Localization.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Localization.Abstractions.dll
+	Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.dll
+	Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Abstractions.dll
+	Microsoft.Extensions.Logging.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Configuration.dll
+	Microsoft.Extensions.Logging.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Console.dll
+	Microsoft.Extensions.Logging.Debug, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Debug.dll
+	Microsoft.Extensions.Logging.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.EventLog.dll
+	Microsoft.Extensions.Logging.EventSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.EventSource.dll
+	Microsoft.Extensions.ObjectPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.ObjectPool.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Options.ConfigurationExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Primitives.dll
+	Microsoft.Extensions.WebEncoders, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.WebEncoders.dll
+	Microsoft.IntelliTrace.TelemetryObserver.Common, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.Common.dll
+	Microsoft.IntelliTrace.TelemetryObserver.CoreClr, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.CoreClr.dll
+	Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.JSInterop.dll
+	Microsoft.Net.Http.Headers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Net.Http.Headers.dll
+	Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll
+	Microsoft.WebTools.BrowserLink.Net, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Net.dll
+	Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\Microsoft.Win32.Registry.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\netstandard.dll
+	Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Newtonsoft.Json.dll
+	PlayingWithJavaScript.Blazor.Server, Version=1.0.8308.22048, Culture=neutral, PublicKeyToken=null, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PlayingWithJavaScript.Blazor.Server.dll
+	PlayingWithJavaScript.Module, Version=1.0.8308.21947, Culture=neutral, PublicKeyToken=null, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PlayingWithJavaScript.Module.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.dll
+	System.Buffers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Buffers.dll
+	System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.dll
+	System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Concurrent.dll
+	System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Specialized.dll
+	System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.Annotations.dll
+	System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Console.dll
+	System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Data.Common.dll
+	System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\System.Diagnostics.EventLog.dll
+	System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.Tracing.dll
+	System.Drawing.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Drawing.Primitives.dll
+	System.IO.FileSystem, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.FileSystem.dll
+	System.IO.FileSystem.Watcher, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.FileSystem.Watcher.dll
+	System.IO.MemoryMappedFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipelines, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\System.IO.Pipelines.dll
+	System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.Pipes.dll
+	System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.dll
+	System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.Expressions.dll
+	System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Memory.dll
+	System.Net.NameResolution, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.NameResolution.dll
+	System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Primitives.dll
+	System.Net.Quic, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Quic.dll
+	System.Net.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Sockets.dll
+	System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebClient.dll
+	System.Net.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebSockets.dll
+	System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ObjectModel.dll
+	System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.CoreLib.dll
+	System.Private.Uri, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Uri.dll
+	System.Private.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Xml.Linq.dll
+	System.Reflection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.dll
+	System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Extensions.dll
+	System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Primitives.dll
+	System.Resources.ResourceManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Resources.ResourceManager.dll
+	System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Intrinsics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Intrinsics.dll
+	System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Loader.dll
+	System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.AccessControl.dll
+	System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Primitives.dll
+	System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.X509Certificates.dll
+	System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encoding.Extensions.dll
+	System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encodings.Web.dll
+	System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.RegularExpressions.dll
+	System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.dll
+	System.Threading.Channels, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Channels.dll
+	System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Overlapped.dll
+	System.Threading.Tasks, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Tasks.dll
+	System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.ThreadPool.dll
+	System.Web.HttpUtility, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Web.HttpUtility.dll
+	System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Xml.XDocument.dll
+30.09.22 12:15:13.595	25adc316-ea58-4094-b35f-4f24bd8fc89a	SetupModules
+30.09.22 12:15:13.809	25adc316-ea58-4094-b35f-4f24bd8fc89a	Customize TypesInfo
+30.09.22 12:15:19.604	25adc316-ea58-4094-b35f-4f24bd8fc89a		preferredLanguageName: (User language)
+								userLanguageName: en
+
+30.09.22 12:15:19.617	25adc316-ea58-4094-b35f-4f24bd8fc89a		preferredLanguageName: (User language)
+								userFormattingCultureName: en
+								selectedFormattingCultureName: 
+
+30.09.22 12:15:19.634	25adc316-ea58-4094-b35f-4f24bd8fc89a		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 6ffdbc7d-3add-40f3-8c95-dddcb60ccb43
+								Category: Unspecified
+
+30.09.22 12:15:20.274	25adc316-ea58-4094-b35f-4f24bd8fc89a	Generate default Model for Action containers
+30.09.22 12:15:36.482	25adc316-ea58-4094-b35f-4f24bd8fc89a	'UserName' property editor: new value is 'Admin'
+30.09.22 12:15:36.595	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:15:36.600	25adc316-ea58-4094-b35f-4f24bd8fc89a		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.Blazor.SystemModule.BlazorLogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+30.09.22 12:15:36.603	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:15:36.605	25adc316-ea58-4094-b35f-4f24bd8fc89a		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 6ffdbc7d-3add-40f3-8c95-dddcb60ccb43
+								Category: Unspecified
+
+30.09.22 12:15:36.611	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							Start logon process
+
+30.09.22 12:15:36.614	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+30.09.22 12:15:36.619	25adc316-ea58-4094-b35f-4f24bd8fc89a		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=PlayingWithJavaScript;XpoDataStorePool=True;
+30.09.22 12:15:36.620	25adc316-ea58-4094-b35f-4f24bd8fc89a		ConnectionString: 
+30.09.22 12:15:36.803	25adc316-ea58-4094-b35f-4f24bd8fc89a	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+30.09.22 12:15:49.520	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							UpdateDB
+
+30.09.22 12:15:59.825	25adc316-ea58-4094-b35f-4f24bd8fc89a		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=PlayingWithJavaScript;XpoDataStorePool=True;
+30.09.22 12:16:08.737	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							Logon successful
+
+30.09.22 12:16:09.478	25adc316-ea58-4094-b35f-4f24bd8fc89a	--------------------------------------------------------------------------------
+							Logon completed
+
+30.09.22 12:16:10.025	25adc316-ea58-4094-b35f-4f24bd8fc89a	Action '6ffdbc7d-3add-40f3-8c95-dddcb60ccb43' done
+30.09.22 12:16:10.030	25adc316-ea58-4094-b35f-4f24bd8fc89a	Action 'Logon' done
+30.09.22 12:16:10.903	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+30.09.22 12:16:10.905	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							
+
+30.09.22 12:16:10.909	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	cqmy5xbg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\peopl\AppData\Local\Temp\cqmy5xbg.jir
+	DevExpress.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Blazor.v22.1.dll
+	DevExpress.Data.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Data.v22.1.dll
+	DevExpress.ExpressApp.AspNetCore.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.AspNetCore.v22.1.dll
+	DevExpress.ExpressApp.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Blazor.v22.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll
+	DevExpress.ExpressApp.FileAttachment.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.FileAttachment.Blazor.v22.1.dll
+	DevExpress.ExpressApp.Objects.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Objects.v22.1.dll
+	DevExpress.ExpressApp.Security.AspNetCore.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.AspNetCore.v22.1.dll
+	DevExpress.ExpressApp.Security.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.v22.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.Xpo.v22.1.dll
+	DevExpress.ExpressApp.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.v22.1.dll
+	DevExpress.ExpressApp.Validation.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Validation.Blazor.v22.1.dll
+	DevExpress.ExpressApp.Validation.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Validation.v22.1.dll
+	DevExpress.ExpressApp.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Xpo.v22.1.dll
+	DevExpress.Images.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Images.v22.1.dll
+	DevExpress.Persistent.Base.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Persistent.Base.v22.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Persistent.BaseImpl.Xpo.v22.1.dll
+	DevExpress.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Xpo.v22.1.dll
+	Microsoft.AspNetCore, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.dll
+	Microsoft.AspNetCore.Antiforgery, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Antiforgery.dll
+	Microsoft.AspNetCore.Authentication, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.dll
+	Microsoft.AspNetCore.Authentication.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Abstractions.dll
+	Microsoft.AspNetCore.Authentication.Cookies, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Cookies.dll
+	Microsoft.AspNetCore.Authentication.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Core.dll
+	Microsoft.AspNetCore.Authorization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authorization.dll
+	Microsoft.AspNetCore.Authorization.Policy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authorization.Policy.dll
+	Microsoft.AspNetCore.Components, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.dll
+	Microsoft.AspNetCore.Components.Authorization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Authorization.dll
+	Microsoft.AspNetCore.Components.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Forms.dll
+	Microsoft.AspNetCore.Components.Server, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Server.dll
+	Microsoft.AspNetCore.Components.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Web.dll
+	Microsoft.AspNetCore.Connections.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Connections.Abstractions.dll
+	Microsoft.AspNetCore.Cryptography.Internal, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Cryptography.Internal.dll
+	Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.dll
+	Microsoft.AspNetCore.DataProtection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+	Microsoft.AspNetCore.DataProtection.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.Extensions.dll
+	Microsoft.AspNetCore.Diagnostics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Diagnostics.dll
+	Microsoft.AspNetCore.Diagnostics.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+	Microsoft.AspNetCore.HostFiltering, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HostFiltering.dll
+	Microsoft.AspNetCore.Hosting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.dll
+	Microsoft.AspNetCore.Hosting.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.Abstractions.dll
+	Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+	Microsoft.AspNetCore.Html.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Html.Abstractions.dll
+	Microsoft.AspNetCore.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.dll
+	Microsoft.AspNetCore.Http.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Abstractions.dll
+	Microsoft.AspNetCore.Http.Connections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Connections.dll
+	Microsoft.AspNetCore.Http.Connections.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Connections.Common.dll
+	Microsoft.AspNetCore.Http.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Extensions.dll
+	Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Features.dll
+	Microsoft.AspNetCore.HttpOverrides, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HttpOverrides.dll
+	Microsoft.AspNetCore.HttpsPolicy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HttpsPolicy.dll
+	Microsoft.AspNetCore.Localization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Localization.dll
+	Microsoft.AspNetCore.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Metadata.dll
+	Microsoft.AspNetCore.Mvc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.dll
+	Microsoft.AspNetCore.Mvc.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Abstractions.dll
+	Microsoft.AspNetCore.Mvc.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Core.dll
+	Microsoft.AspNetCore.Mvc.DataAnnotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+	Microsoft.AspNetCore.Mvc.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Razor.dll
+	Microsoft.AspNetCore.Mvc.RazorPages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.RazorPages.dll
+	Microsoft.AspNetCore.Mvc.TagHelpers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+	Microsoft.AspNetCore.Mvc.ViewFeatures, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+	Microsoft.AspNetCore.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Razor.dll
+	Microsoft.AspNetCore.Razor.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Razor.Runtime.dll
+	Microsoft.AspNetCore.Routing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Routing.dll
+	Microsoft.AspNetCore.Routing.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Routing.Abstractions.dll
+	Microsoft.AspNetCore.Server.IIS, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.IIS.dll
+	Microsoft.AspNetCore.Server.IISIntegration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.IISIntegration.dll
+	Microsoft.AspNetCore.Server.Kestrel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.dll
+	Microsoft.AspNetCore.Server.Kestrel.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+	Microsoft.AspNetCore.Server.Kestrel.Transport.Quic, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+	Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+	Microsoft.AspNetCore.SignalR, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.dll
+	Microsoft.AspNetCore.SignalR.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Common.dll
+	Microsoft.AspNetCore.SignalR.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Core.dll
+	Microsoft.AspNetCore.SignalR.Protocols.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+	Microsoft.AspNetCore.StaticFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.StaticFiles.dll
+	Microsoft.AspNetCore.Watch.BrowserRefresh, Version=6.0.401.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\SDK\6.0.401\DotnetTools\dotnet-watch\6.0.401-servicing.22421.5\tools\net6.0\any\middleware\Microsoft.AspNetCore.Watch.BrowserRefresh.dll
+	Microsoft.AspNetCore.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.WebSockets.dll
+	Microsoft.AspNetCore.WebUtilities, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.WebUtilities.dll
+	Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+	Microsoft.CodeAnalysis, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+	Microsoft.CodeAnalysis.CSharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+	Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Caching.Abstractions.dll
+	Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Caching.Memory.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.Configuration.Binder, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Binder.dll
+	Microsoft.Extensions.Configuration.EnvironmentVariables, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+	Microsoft.Extensions.Configuration.FileExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.FileExtensions.dll
+	Microsoft.Extensions.Configuration.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Json.dll
+	Microsoft.Extensions.Configuration.UserSecrets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.UserSecrets.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=c:\program files\microsoft visual studio\2022\enterprise\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Features.dll
+	Microsoft.Extensions.FileProviders.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Abstractions.dll
+	Microsoft.Extensions.FileProviders.Composite, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Composite.dll
+	Microsoft.Extensions.FileProviders.Embedded, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Embedded.dll
+	Microsoft.Extensions.FileProviders.Physical, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Physical.dll
+	Microsoft.Extensions.FileSystemGlobbing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileSystemGlobbing.dll
+	Microsoft.Extensions.Hosting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Hosting.dll
+	Microsoft.Extensions.Hosting.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Hosting.Abstractions.dll
+	Microsoft.Extensions.Localization.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Localization.Abstractions.dll
+	Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.dll
+	Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Abstractions.dll
+	Microsoft.Extensions.Logging.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Configuration.dll
+	Microsoft.Extensions.Logging.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Console.dll
+	Microsoft.Extensions.Logging.Debug, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Debug.dll
+	Microsoft.Extensions.Logging.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.EventLog.dll
+	Microsoft.Extensions.Logging.EventSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.EventSource.dll
+	Microsoft.Extensions.ObjectPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.ObjectPool.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Options.ConfigurationExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Primitives.dll
+	Microsoft.Extensions.WebEncoders, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.WebEncoders.dll
+	Microsoft.IntelliTrace.TelemetryObserver.Common, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.Common.dll
+	Microsoft.IntelliTrace.TelemetryObserver.CoreClr, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.CoreClr.dll
+	Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.JSInterop.dll
+	Microsoft.Net.Http.Headers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Net.Http.Headers.dll
+	Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll
+	Microsoft.WebTools.BrowserLink.Net, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Net.dll
+	Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\Microsoft.Win32.Registry.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\mscorlib.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\netstandard.dll
+	Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Newtonsoft.Json.dll
+	PlayingWithJavaScript.Blazor.Server, Version=1.0.8308.22048, Culture=neutral, PublicKeyToken=null, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PlayingWithJavaScript.Blazor.Server.dll
+	PlayingWithJavaScript.Module, Version=1.0.8308.21947, Culture=neutral, PublicKeyToken=null, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PlayingWithJavaScript.Module.dll
+	PuppeteerSharp, Version=7.1.0.0, Culture=neutral, PublicKeyToken=db12f80f85d8ba23, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PuppeteerSharp.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.dll
+	System.Buffers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Buffers.dll
+	System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.dll
+	System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Specialized.dll
+	System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.Annotations.dll
+	System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Console.dll
+	System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Data.Common.dll
+	System.Data.SqlClient, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+	System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\System.Diagnostics.EventLog.dll
+	System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Drawing.Primitives.dll
+	System.Globalization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Globalization.dll
+	System.IO, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.dll
+	System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.Compression.dll
+	System.IO.FileSystem, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.FileSystem.dll
+	System.IO.FileSystem.Watcher, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.FileSystem.Watcher.dll
+	System.IO.MemoryMappedFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipelines, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\System.IO.Pipelines.dll
+	System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.Pipes.dll
+	System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.dll
+	System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.Expressions.dll
+	System.Linq.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.Parallel.dll
+	System.Linq.Queryable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.Queryable.dll
+	System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Memory.dll
+	System.Net.NameResolution, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.NameResolution.dll
+	System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Primitives.dll
+	System.Net.Quic, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Quic.dll
+	System.Net.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Sockets.dll
+	System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebClient.dll
+	System.Net.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebSockets.dll
+	System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ObjectModel.dll
+	System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.CoreLib.dll
+	System.Private.ServiceModel, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.Private.ServiceModel.dll
+	System.Private.Uri, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Uri.dll
+	System.Private.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Xml.Linq.dll
+	System.Reactive, Version=5.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.Reactive.dll
+	System.Reflection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.dll
+	System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Extensions.dll
+	System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Primitives.dll
+	System.Resources.ResourceManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Resources.ResourceManager.dll
+	System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Intrinsics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Intrinsics.dll
+	System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Loader.dll
+	System.Runtime.Numerics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Numerics.dll
+	System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Serialization.Formatters.dll
+	System.Runtime.Serialization.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Serialization.Primitives.dll
+	System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.AccessControl.dll
+	System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Csp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Csp.dll
+	System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Primitives.dll
+	System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.X509Certificates.dll
+	System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Principal.Windows.dll
+	System.ServiceModel.NetTcp, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+	System.ServiceModel.Primitives, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+	System.Text.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encoding.dll
+	System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encoding.CodePages.dll
+	System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encoding.Extensions.dll
+	System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encodings.Web.dll
+	System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.RegularExpressions.dll
+	System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.dll
+	System.Threading.Channels, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Channels.dll
+	System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Overlapped.dll
+	System.Threading.Tasks, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Tasks.dll
+	System.Threading.Tasks.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Tasks.Extensions.dll
+	System.Threading.Tasks.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Tasks.Parallel.dll
+	System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.ThreadPool.dll
+	System.Threading.Timer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Timer.dll
+	System.Transactions.Local, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Transactions.Local.dll
+	System.ValueTuple, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ValueTuple.dll
+	System.Web.HttpUtility, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Web.HttpUtility.dll
+	System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Xml.XDocument.dll
+30.09.22 12:16:10.914	bafa1a5e-703b-4557-8793-80710c569305	SetupModules
+30.09.22 12:16:10.975	bafa1a5e-703b-4557-8793-80710c569305		preferredLanguageName: (User language)
+								userLanguageName: en
+
+30.09.22 12:16:10.982	bafa1a5e-703b-4557-8793-80710c569305		preferredLanguageName: (User language)
+								userFormattingCultureName: en
+								selectedFormattingCultureName: 
+
+30.09.22 12:16:10.986	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Start logon process
+
+30.09.22 12:16:11.135	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Logon successful
+
+30.09.22 12:16:11.362	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Logon completed
+
+30.09.22 12:16:11.741	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+30.09.22 12:16:12.393	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:12.397	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+30.09.22 12:16:12.402	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Users
+30.09.22 12:16:12.953	bafa1a5e-703b-4557-8793-80710c569305	Action 'ShowNavigationItem' done
+30.09.22 12:16:19.939	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:19.943	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Users
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Admin
+
+30.09.22 12:16:20.336	bafa1a5e-703b-4557-8793-80710c569305	Action 'ListViewShowObject' done
+30.09.22 12:16:25.237	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:25.240	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Application User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Admin
+
+30.09.22 12:16:25.568	bafa1a5e-703b-4557-8793-80710c569305	Action 'Refresh' done
+30.09.22 12:16:28.082	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:28.087	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Application User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Admin
+
+30.09.22 12:16:28.089	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Company
+30.09.22 12:16:28.326	bafa1a5e-703b-4557-8793-80710c569305	Action 'ShowNavigationItem' done
+30.09.22 12:16:38.190	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:38.193	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: PrintPageAction
+								Category: Edit
+								Controller.Name: PlayingWithJavaScript.Blazor.Server.Controllers.PrintPageViewController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+30.09.22 12:16:38.197	bafa1a5e-703b-4557-8793-80710c569305	Action 'PrintPageAction' done
+30.09.22 12:16:53.809	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:53.812	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+30.09.22 12:16:53.815	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Users
+30.09.22 12:16:54.152	bafa1a5e-703b-4557-8793-80710c569305	Action 'ShowNavigationItem' done
+30.09.22 12:16:55.517	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:55.520	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Users
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: User
+
+30.09.22 12:16:55.774	bafa1a5e-703b-4557-8793-80710c569305	Action 'ListViewShowObject' done
+30.09.22 12:16:58.662	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:16:58.665	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: NavigateBack
+								Category: ViewsHistoryNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ViewNavigationController
+								Context.Name: Application User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: User
+
+30.09.22 12:16:58.668	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Users
+30.09.22 12:16:58.895	bafa1a5e-703b-4557-8793-80710c569305	Action 'NavigateBack' done
+30.09.22 12:17:00.062	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:17:00.066	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Users
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Admin
+
+30.09.22 12:17:00.270	bafa1a5e-703b-4557-8793-80710c569305	Action 'ListViewShowObject' done
+30.09.22 12:17:15.230	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:17:15.233	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Login Audit
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.ApplicationUserLoginAudit(1)
+
+30.09.22 12:17:15.330	bafa1a5e-703b-4557-8793-80710c569305	Action 'ListViewShowObject' done
+30.09.22 12:17:23.467	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:17:23.470	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogCancel
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DialogController
+								Context.Name: Application User Login Audit
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.ApplicationUserLoginAudit(1)
+
+30.09.22 12:17:23.508	bafa1a5e-703b-4557-8793-80710c569305	Action 'DialogCancel' done
+30.09.22 12:17:28.445	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:17:28.447	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Application User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Admin
+
+30.09.22 12:17:28.449	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Company
+30.09.22 12:17:28.679	bafa1a5e-703b-4557-8793-80710c569305	Action 'ShowNavigationItem' done
+30.09.22 12:17:31.212	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:17:31.214	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Blazor.SystemModule.BlazorNewObjectViewController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+30.09.22 12:17:31.216	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Company
+30.09.22 12:17:31.474	bafa1a5e-703b-4557-8793-80710c569305	Action 'New' done
+30.09.22 12:17:36.817	bafa1a5e-703b-4557-8793-80710c569305	'CompanyName' property editor: new value is 'Xari'
+30.09.22 12:18:09.388	bafa1a5e-703b-4557-8793-80710c569305	'CompanyUrl' property editor: new value is 'https://xari.io/'
+30.09.22 12:18:09.520	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:18:09.522	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Blazor.SystemModule.BlazorModificationsController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.Company(63289c95-0627-4dc2-b992-8a411bd7b63b)
+
+30.09.22 12:18:09.609	bafa1a5e-703b-4557-8793-80710c569305	Action 'Save' done
+30.09.22 12:18:14.120	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:18:14.124	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: RefreshCompanyWebImage
+								Category: Reports
+								Controller.Name: PlayingWithJavaScript.Module.Controllers.CompanyViewController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.Company(63289c95-0627-4dc2-b992-8a411bd7b63b)
+
+30.09.22 12:18:14.348	bafa1a5e-703b-4557-8793-80710c569305	Action 'RefreshCompanyWebImage' done
+30.09.22 12:19:41.070	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:19:41.074	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: RefreshCompanyWebImage
+								Category: Reports
+								Controller.Name: PlayingWithJavaScript.Module.Controllers.CompanyViewController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.Company(63289c95-0627-4dc2-b992-8a411bd7b63b)
+
+30.09.22 12:19:41.083	bafa1a5e-703b-4557-8793-80710c569305	Action 'RefreshCompanyWebImage' done
+30.09.22 12:20:02.082	3bad7a80-a916-450c-9154-c95a1702eb82	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+30.09.22 12:20:02.085	3bad7a80-a916-450c-9154-c95a1702eb82	--------------------------------------------------------------------------------
+							
+
+30.09.22 12:20:02.089	3bad7a80-a916-450c-9154-c95a1702eb82	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	cqmy5xbg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\peopl\AppData\Local\Temp\cqmy5xbg.jir
+	DevExpress.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Blazor.v22.1.dll
+	DevExpress.Data.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Data.v22.1.dll
+	DevExpress.ExpressApp.AspNetCore.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.AspNetCore.v22.1.dll
+	DevExpress.ExpressApp.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Blazor.v22.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll
+	DevExpress.ExpressApp.FileAttachment.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.FileAttachment.Blazor.v22.1.dll
+	DevExpress.ExpressApp.Objects.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Objects.v22.1.dll
+	DevExpress.ExpressApp.Security.AspNetCore.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.AspNetCore.v22.1.dll
+	DevExpress.ExpressApp.Security.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.v22.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Security.Xpo.v22.1.dll
+	DevExpress.ExpressApp.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.v22.1.dll
+	DevExpress.ExpressApp.Validation.Blazor.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Validation.Blazor.v22.1.dll
+	DevExpress.ExpressApp.Validation.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Validation.v22.1.dll
+	DevExpress.ExpressApp.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.ExpressApp.Xpo.v22.1.dll
+	DevExpress.Images.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Images.v22.1.dll
+	DevExpress.Persistent.Base.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Persistent.Base.v22.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Persistent.BaseImpl.Xpo.v22.1.dll
+	DevExpress.Xpo.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExpress.Xpo.v22.1.dll
+	DevExtreme.AspNet.Data, Version=2.8.6.0, Culture=neutral, PublicKeyToken=982f5dab1439d0f7, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\DevExtreme.AspNet.Data.dll
+	Microsoft.AspNetCore, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.dll
+	Microsoft.AspNetCore.Antiforgery, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Antiforgery.dll
+	Microsoft.AspNetCore.Authentication, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.dll
+	Microsoft.AspNetCore.Authentication.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Abstractions.dll
+	Microsoft.AspNetCore.Authentication.Cookies, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Cookies.dll
+	Microsoft.AspNetCore.Authentication.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authentication.Core.dll
+	Microsoft.AspNetCore.Authorization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authorization.dll
+	Microsoft.AspNetCore.Authorization.Policy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Authorization.Policy.dll
+	Microsoft.AspNetCore.Components, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.dll
+	Microsoft.AspNetCore.Components.Authorization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Authorization.dll
+	Microsoft.AspNetCore.Components.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Forms.dll
+	Microsoft.AspNetCore.Components.Server, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Server.dll
+	Microsoft.AspNetCore.Components.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Components.Web.dll
+	Microsoft.AspNetCore.Connections.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Connections.Abstractions.dll
+	Microsoft.AspNetCore.Cryptography.Internal, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Cryptography.Internal.dll
+	Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.dll
+	Microsoft.AspNetCore.DataProtection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+	Microsoft.AspNetCore.DataProtection.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.DataProtection.Extensions.dll
+	Microsoft.AspNetCore.Diagnostics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Diagnostics.dll
+	Microsoft.AspNetCore.Diagnostics.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+	Microsoft.AspNetCore.HostFiltering, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HostFiltering.dll
+	Microsoft.AspNetCore.Hosting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.dll
+	Microsoft.AspNetCore.Hosting.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.Abstractions.dll
+	Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+	Microsoft.AspNetCore.Html.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Html.Abstractions.dll
+	Microsoft.AspNetCore.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.dll
+	Microsoft.AspNetCore.Http.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Abstractions.dll
+	Microsoft.AspNetCore.Http.Connections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Connections.dll
+	Microsoft.AspNetCore.Http.Connections.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Connections.Common.dll
+	Microsoft.AspNetCore.Http.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Extensions.dll
+	Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Http.Features.dll
+	Microsoft.AspNetCore.HttpOverrides, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HttpOverrides.dll
+	Microsoft.AspNetCore.HttpsPolicy, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.HttpsPolicy.dll
+	Microsoft.AspNetCore.Localization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Localization.dll
+	Microsoft.AspNetCore.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Metadata.dll
+	Microsoft.AspNetCore.Mvc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.dll
+	Microsoft.AspNetCore.Mvc.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Abstractions.dll
+	Microsoft.AspNetCore.Mvc.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Core.dll
+	Microsoft.AspNetCore.Mvc.DataAnnotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+	Microsoft.AspNetCore.Mvc.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.Razor.dll
+	Microsoft.AspNetCore.Mvc.RazorPages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.RazorPages.dll
+	Microsoft.AspNetCore.Mvc.TagHelpers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+	Microsoft.AspNetCore.Mvc.ViewFeatures, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+	Microsoft.AspNetCore.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Razor.dll
+	Microsoft.AspNetCore.Razor.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Razor.Runtime.dll
+	Microsoft.AspNetCore.Routing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Routing.dll
+	Microsoft.AspNetCore.Routing.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Routing.Abstractions.dll
+	Microsoft.AspNetCore.Server.IIS, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.IIS.dll
+	Microsoft.AspNetCore.Server.IISIntegration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.IISIntegration.dll
+	Microsoft.AspNetCore.Server.Kestrel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.dll
+	Microsoft.AspNetCore.Server.Kestrel.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+	Microsoft.AspNetCore.Server.Kestrel.Transport.Quic, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+	Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+	Microsoft.AspNetCore.SignalR, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.dll
+	Microsoft.AspNetCore.SignalR.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Common.dll
+	Microsoft.AspNetCore.SignalR.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Core.dll
+	Microsoft.AspNetCore.SignalR.Protocols.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+	Microsoft.AspNetCore.StaticFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.StaticFiles.dll
+	Microsoft.AspNetCore.Watch.BrowserRefresh, Version=6.0.401.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\SDK\6.0.401\DotnetTools\dotnet-watch\6.0.401-servicing.22421.5\tools\net6.0\any\middleware\Microsoft.AspNetCore.Watch.BrowserRefresh.dll
+	Microsoft.AspNetCore.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.WebSockets.dll
+	Microsoft.AspNetCore.WebUtilities, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.AspNetCore.WebUtilities.dll
+	Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+	Microsoft.CodeAnalysis, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+	Microsoft.CodeAnalysis.CSharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+	Microsoft.CSharp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\Microsoft.CSharp.dll
+	Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Caching.Abstractions.dll
+	Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Caching.Memory.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.Configuration.Binder, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Binder.dll
+	Microsoft.Extensions.Configuration.EnvironmentVariables, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+	Microsoft.Extensions.Configuration.FileExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.FileExtensions.dll
+	Microsoft.Extensions.Configuration.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.Json.dll
+	Microsoft.Extensions.Configuration.UserSecrets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Configuration.UserSecrets.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=c:\program files\microsoft visual studio\2022\enterprise\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Features.dll
+	Microsoft.Extensions.FileProviders.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Abstractions.dll
+	Microsoft.Extensions.FileProviders.Composite, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Composite.dll
+	Microsoft.Extensions.FileProviders.Embedded, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Embedded.dll
+	Microsoft.Extensions.FileProviders.Physical, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileProviders.Physical.dll
+	Microsoft.Extensions.FileSystemGlobbing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.FileSystemGlobbing.dll
+	Microsoft.Extensions.Hosting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Hosting.dll
+	Microsoft.Extensions.Hosting.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Hosting.Abstractions.dll
+	Microsoft.Extensions.Localization.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Localization.Abstractions.dll
+	Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.dll
+	Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Abstractions.dll
+	Microsoft.Extensions.Logging.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Configuration.dll
+	Microsoft.Extensions.Logging.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Console.dll
+	Microsoft.Extensions.Logging.Debug, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.Debug.dll
+	Microsoft.Extensions.Logging.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.EventLog.dll
+	Microsoft.Extensions.Logging.EventSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Logging.EventSource.dll
+	Microsoft.Extensions.ObjectPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.ObjectPool.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Options.ConfigurationExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.Primitives.dll
+	Microsoft.Extensions.WebEncoders, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Extensions.WebEncoders.dll
+	Microsoft.IntelliTrace.TelemetryObserver.Common, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.Common.dll
+	Microsoft.IntelliTrace.TelemetryObserver.CoreClr, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.CoreClr.dll
+	Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.JSInterop.dll
+	Microsoft.Net.Http.Headers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\Microsoft.Net.Http.Headers.dll
+	Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll
+	Microsoft.WebTools.BrowserLink.Net, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Net.dll
+	Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\Microsoft.Win32.Registry.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\mscorlib.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\netstandard.dll
+	Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\Newtonsoft.Json.dll
+	PlayingWithJavaScript.Blazor.Server, Version=1.0.8308.22048, Culture=neutral, PublicKeyToken=null, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PlayingWithJavaScript.Blazor.Server.dll
+	PlayingWithJavaScript.Module, Version=1.0.8308.21947, Culture=neutral, PublicKeyToken=null, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PlayingWithJavaScript.Module.dll
+	PuppeteerSharp, Version=7.1.0.0, Culture=neutral, PublicKeyToken=db12f80f85d8ba23, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\PuppeteerSharp.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.dll
+	System.Buffers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Buffers.dll
+	System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.dll
+	System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Collections.Specialized.dll
+	System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.Annotations.dll
+	System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Console.dll
+	System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Data.Common.dll
+	System.Data.SqlClient, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+	System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\System.Diagnostics.EventLog.dll
+	System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Drawing.Primitives.dll
+	System.Globalization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Globalization.dll
+	System.IO, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.dll
+	System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.Compression.dll
+	System.IO.Compression.ZipFile, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.Compression.ZipFile.dll
+	System.IO.FileSystem, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.FileSystem.dll
+	System.IO.FileSystem.Watcher, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.FileSystem.Watcher.dll
+	System.IO.MemoryMappedFiles, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.MemoryMappedFiles.dll
+	System.IO.Pipelines, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.9\System.IO.Pipelines.dll
+	System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.IO.Pipes.dll
+	System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.dll
+	System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.Expressions.dll
+	System.Linq.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.Parallel.dll
+	System.Linq.Queryable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Linq.Queryable.dll
+	System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Memory.dll
+	System.Net.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Http.dll
+	System.Net.NameResolution, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.NameResolution.dll
+	System.Net.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Primitives.dll
+	System.Net.Quic, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Quic.dll
+	System.Net.Requests, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Requests.dll
+	System.Net.Security, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Security.dll
+	System.Net.ServicePoint, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.ServicePoint.dll
+	System.Net.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.Sockets.dll
+	System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebClient.dll
+	System.Net.WebHeaderCollection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebHeaderCollection.dll
+	System.Net.WebSockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebSockets.dll
+	System.Net.WebSockets.Client, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Net.WebSockets.Client.dll
+	System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ObjectModel.dll
+	System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.CoreLib.dll
+	System.Private.ServiceModel, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.Private.ServiceModel.dll
+	System.Private.Uri, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Uri.dll
+	System.Private.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Private.Xml.Linq.dll
+	System.Reactive, Version=5.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.Reactive.dll
+	System.Reflection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.dll
+	System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Extensions.dll
+	System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Reflection.Primitives.dll
+	System.Resources.ResourceManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Resources.ResourceManager.dll
+	System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Intrinsics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Intrinsics.dll
+	System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Loader.dll
+	System.Runtime.Numerics, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Numerics.dll
+	System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Serialization.Formatters.dll
+	System.Runtime.Serialization.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Runtime.Serialization.Primitives.dll
+	System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.AccessControl.dll
+	System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Csp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Csp.dll
+	System.Security.Cryptography.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Encoding.dll
+	System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.Primitives.dll
+	System.Security.Cryptography.X509Certificates, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Cryptography.X509Certificates.dll
+	System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Security.Principal.Windows.dll
+	System.ServiceModel.NetTcp, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+	System.ServiceModel.Primitives, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Proyecto\Xari\PlayingWithJavaScript\PlayingWithJavaScript.Blazor.Server\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+	System.Text.Encoding, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encoding.dll
+	System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encoding.CodePages.dll
+	System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encoding.Extensions.dll
+	System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Encodings.Web.dll
+	System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Text.RegularExpressions.dll
+	System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.dll
+	System.Threading.Channels, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Channels.dll
+	System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Overlapped.dll
+	System.Threading.Tasks, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Tasks.dll
+	System.Threading.Tasks.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Tasks.Extensions.dll
+	System.Threading.Tasks.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Tasks.Parallel.dll
+	System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.ThreadPool.dll
+	System.Threading.Timer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Threading.Timer.dll
+	System.Transactions.Local, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Transactions.Local.dll
+	System.ValueTuple, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.ValueTuple.dll
+	System.Web.HttpUtility, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Web.HttpUtility.dll
+	System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Xml.XDocument.dll
+	System.Xml.XmlSerializer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.9\System.Xml.XmlSerializer.dll
+30.09.22 12:20:02.091	3bad7a80-a916-450c-9154-c95a1702eb82	SetupModules
+30.09.22 12:20:02.130	3bad7a80-a916-450c-9154-c95a1702eb82		preferredLanguageName: (User language)
+								userLanguageName: en
+
+30.09.22 12:20:02.132	3bad7a80-a916-450c-9154-c95a1702eb82		preferredLanguageName: (User language)
+								userFormattingCultureName: en
+								selectedFormattingCultureName: 
+
+30.09.22 12:20:02.149	3bad7a80-a916-450c-9154-c95a1702eb82	--------------------------------------------------------------------------------
+							Start logon process
+
+30.09.22 12:20:02.217	3bad7a80-a916-450c-9154-c95a1702eb82	--------------------------------------------------------------------------------
+							Logon successful
+
+30.09.22 12:20:02.341	3bad7a80-a916-450c-9154-c95a1702eb82	--------------------------------------------------------------------------------
+							Logon completed
+
+30.09.22 12:20:28.607	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:20:28.610	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: PrintPageAction
+								Category: Edit
+								Controller.Name: PlayingWithJavaScript.Blazor.Server.Controllers.PrintPageViewController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.Company(63289c95-0627-4dc2-b992-8a411bd7b63b)
+
+30.09.22 12:20:28.614	bafa1a5e-703b-4557-8793-80710c569305	Action 'PrintPageAction' done
+30.09.22 12:20:39.694	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:20:39.699	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.Company(63289c95-0627-4dc2-b992-8a411bd7b63b)
+
+30.09.22 12:20:39.700	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: My Details
+30.09.22 12:20:40.227	bafa1a5e-703b-4557-8793-80710c569305	Action 'ShowNavigationItem' done
+30.09.22 12:20:50.043	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:20:50.045	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Application User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Admin
+
+30.09.22 12:20:50.047	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Company
+30.09.22 12:20:50.244	bafa1a5e-703b-4557-8793-80710c569305	Action 'ShowNavigationItem' done
+30.09.22 12:20:54.619	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:20:54.623	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.Company(63289c95-0627-4dc2-b992-8a411bd7b63b)
+
+30.09.22 12:20:54.791	bafa1a5e-703b-4557-8793-80710c569305	Action 'ListViewShowObject' done
+30.09.22 12:20:58.035	bafa1a5e-703b-4557-8793-80710c569305	--------------------------------------------------------------------------------
+							Execute action
+
+30.09.22 12:20:58.039	bafa1a5e-703b-4557-8793-80710c569305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: NavigateBack
+								Category: ViewsHistoryNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ViewNavigationController
+								Context.Name: Company
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: PlayingWithJavaScript.Module.BusinessObjects.Company(63289c95-0627-4dc2-b992-8a411bd7b63b)
+
+30.09.22 12:20:58.040	bafa1a5e-703b-4557-8793-80710c569305		SelectedItem: Company
+30.09.22 12:20:58.272	bafa1a5e-703b-4557-8793-80710c569305	Action 'NavigateBack' done
